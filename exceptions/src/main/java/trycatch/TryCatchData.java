@@ -10,6 +10,7 @@ public class TryCatchData {
 		String str = null;
 		int res = 0;
 		
+		//try with resource
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
 			System.out.println("Type Number !!!");
 			str = br.readLine();
@@ -34,7 +35,7 @@ public class TryCatchData {
 			return -1;
 		}
 	}
-
+	@SuppressWarnings("unused")
 	public String useUncheckedWithTryCatch(Integer num) {
 		try {
 			int i = num / 0;

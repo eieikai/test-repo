@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import check.CheckExceptionData;
 
-public class CheckExceptionTest {
+public class ACheckExceptionTest {
 
 	CheckExceptionData data = new CheckExceptionData();
 

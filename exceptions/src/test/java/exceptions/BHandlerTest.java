@@ -2,7 +2,7 @@ package exceptions;
 
 import org.junit.jupiter.api.Test;
 
-public class HandlerTest {
+public class BHandlerTest {
 	Handler handle = new Handler();
 
 	// @Test
