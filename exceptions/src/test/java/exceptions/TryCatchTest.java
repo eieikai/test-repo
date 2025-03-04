@@ -9,8 +9,14 @@ import trycatch.TryCatchData;
 public class TryCatchTest {
 
 	TryCatchData data = new TryCatchData();
-
+	
 	@Test
+	void TestTryWithFinally() {
+		String res = data.useCheckedWithTryFinallyAndResource();
+		System.out.println(res);
+	}
+
+	//@Test
 	void testTryMultiCatch() {
 		int res1 = data.useUncheckedWithTryMulticatch(new int[2], "2");
 		assertEquals(-1, res1);
